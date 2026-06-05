@@ -78,7 +78,7 @@ st.markdown("""
 def load_models():
     base = os.path.dirname(__file__)
     models = {
-        "🤖 Random Forest (Advanced)": joblib.load(os.path.join(base, "random_forest_pipeline (1).joblib")),
+        "🤖 Random Forest (Advanced)": joblib.load(os.path.join(base, "random_forest.joblib")),
         "📊 Logistic Regression":       joblib.load(os.path.join(base, "logistic_regression_tuned.joblib")),
         "🌳 Decision Tree":             joblib.load(os.path.join(base, "decision_tree_pipeline.joblib")),
     }
